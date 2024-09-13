@@ -22,9 +22,10 @@
 
         .content {
             width: 100%;
-            max-width: 600px; /* Ensures the content doesn't stretch too wide */
-            padding: 20px; /* Padding to prevent text from touching the screen edges */
-            box-sizing: border-box; /* Ensures padding is included in total width */
+            max-width: 600px;
+            padding: 40px 20px; /* Increased padding */
+            margin: 0 auto;
+            box-sizing: border-box;
         }
 
         h1 {
@@ -52,7 +53,7 @@
         .signup-form a {
             padding: 10px 20px;
             font-size: 1rem;
-            font-weight: bold;
+            font-weight: 700; /* Stronger bold */
             background-color: #FF7043;
             color: #F8F8F8;
             border: none;
@@ -104,8 +105,14 @@
             }
 
             .signup-form a {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
+                font-weight: 700; /* Extra emphasis on bold */
                 padding: 7px 14px;
+            }
+
+            .content {
+                padding: 20px 30px; /* Adjusting padding for mobile */
+                margin: 0 10px; /* Margin adjustment */
             }
         }
     </style>
