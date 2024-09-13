@@ -23,8 +23,7 @@
         .content {
             width: 100%;
             max-width: 600px;
-            padding: 40px 20px; /* Increased padding */
-            margin: 0 auto;
+            padding: 20px;
             box-sizing: border-box;
         }
 
@@ -85,6 +84,11 @@
                 font-size: 0.9rem;
                 padding: 8px 16px;
             }
+
+            .content {
+                padding: 20px 15px; /* Adds padding for tablets */
+                margin: 0 15px; /* Adds margin to keep text away from edges */
+            }
         }
 
         @media (max-width: 480px) {
@@ -111,8 +115,8 @@
             }
 
             .content {
-                padding: 20px 30px; /* Adjusting padding for mobile */
-                margin: 0 10px; /* Margin adjustment */
+                padding: 20px 10px; /* Adjusts padding for mobile */
+                margin: 0 10px; /* Adds margin for mobile to avoid edges */
             }
         }
     </style>
