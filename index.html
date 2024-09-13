@@ -20,6 +20,13 @@
             text-align: center;
         }
 
+        .content {
+            width: 100%;
+            max-width: 600px; /* Ensures the content doesn't stretch too wide */
+            padding: 20px; /* Padding to prevent text from touching the screen edges */
+            box-sizing: border-box; /* Ensures padding is included in total width */
+        }
+
         h1 {
             font-family: 'Playfair Display', serif;
             font-weight: bold;
@@ -45,6 +52,7 @@
         .signup-form a {
             padding: 10px 20px;
             font-size: 1rem;
+            font-weight: bold;
             background-color: #FF7043;
             color: #F8F8F8;
             border: none;
@@ -52,17 +60,6 @@
             border-radius: 5px;
             font-family: 'Montserrat', sans-serif;
             display: inline-block;
-        }
-
-        .social-links a {
-            margin: 0 10px;
-            color: #9B88FF;
-            text-decoration: none;
-            font-size: 1.2rem;
-        }
-
-        .social-links a:hover {
-            text-decoration: underline;
         }
 
         /* Responsive Design */
@@ -87,10 +84,6 @@
                 font-size: 0.9rem;
                 padding: 8px 16px;
             }
-
-            .social-links a {
-                font-size: 1rem;
-            }
         }
 
         @media (max-width: 480px) {
@@ -113,10 +106,6 @@
             .signup-form a {
                 font-size: 0.8rem;
                 padding: 7px 14px;
-            }
-
-            .social-links a {
-                font-size: 0.9rem;
             }
         }
     </style>
